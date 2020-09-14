@@ -1,0 +1,40 @@
+#appFrame {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  overflow: hidden;
+  background-color: var(--clr-dark);
+  text-align: center;
+}
+
+#appName {
+  color: var(--clr-prim);
+  font-size: 3em;
+}
+
+#appCanvas {
+  margin-top: 64px;
+}
+
+#brandGithubLink {
+  position: absolute;
+  right: 64px;
+  bottom: 64px;
+  padding: var(--pad-box);
+  background-color: var(--clr-prim);
+  border-radius: 5px;
+  color: var(--clr-dark);
+  font-weight: 700;
+}
+#brandGithubLink img {
+  height: 24px;
+}
+#brandGithubLink span {
+  margin: 0 8px;
+}
+#brandGithubLink:hover {
+  box-shadow: 0 0 0 3px var(--clr-sec);
+}

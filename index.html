@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Vanilla JS Clock - Made by kundanb</title>
+    <link rel="icon" href="./img/brand.png" />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/flexbox.css" />
+    <link rel="stylesheet" href="./css/preloader.css" />
+    <link rel="stylesheet" href="./css/app.css" />
+
+    <script src="./js/jquery.js"></script>
+  </head>
+  <body>
+    <div id="preloaderFrame" class="flx col-c-c">
+      <div class="branding">
+        <img src="./img/brand.svg" alt="kundanb logo" />
+      </div>
+
+      <div class="loader">
+        <img src="./img/gooey-loader.svg" alt="loading" />
+      </div>
+    </div>
+
+    <div id="appFrame" class="flx col-c-c">
+      <h1 id="appName">Vanilla JS Clock</h1>
+      <canvas id="appCanvas"></canvas>
+
+      <script src="./js/clock.js"></script>
+      <script src="./js/script.js"></script>
+
+      <a
+        href="https://github.com/kundanb"
+        id="brandGithubLink"
+        class="flx ai-c"
+        target="_blank"
+      >
+        <img src="./img/github.svg" alt="github" />
+        <span>Github Profile</span>
+        <img src="./img/brand.svg" alt="kundanb logo" />
+      </a>
+    </div>
+  </body>
+</html>
